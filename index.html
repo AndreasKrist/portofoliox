@@ -97,13 +97,13 @@
                 <div class="service">
                     <i class="fas fa-tachometer-alt"></i>
                     <h2 class="service-heading"><span>fast</span>
-                        <br>af boi ?
+                        <br>AF boi ?
                     </h2>
                 </div>
                 <div class="service">
                     <i class="fas fa-brain"></i>
                     <h2 class="service-heading"><span>Critical Thinking</span>
-                        <br>overthinking</h2>
+                        <br>Overthinking</h2>
                     </h2>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                         <h4 class="project-technologies">HTML/CSS/JS</h4>
                     </div>
                     <img src="images2/content-3.jpg" alt="" class="project-img">
-                    <a href="#" class="project-link" target="_blank">Go to Video</a>
+                    <a href="#" class="project-link" target="_blank">Go to Content</a>
                 </div>
                 <div class="project">
                     <div class="project-text">
@@ -149,7 +149,7 @@
                         <h4 class="project-technologies">React Js</h4>
                     </div>
                     <img src="images2/content-4.jpg" alt="" class="project-img">
-                    <a href="#" class="project-link" target="_blank">Go to Video</a>
+                    <a href="#" class="project-link" target="_blank">Go to Content</a>
                 </div>
                 <div class="project">
                     <div class="project-text">
@@ -159,7 +159,7 @@
                         <h4 class="project-technologies">HTML/CSS/JS</h4>
                     </div>
                     <img src="images2/content-5.jpg" alt="" class="project-img">
-                    <a href="#" class="project-link" target="_blank">Go to Video</a>
+                    <a href="#" class="project-link" target="_blank">Go to Content</a>
                 </div>
                 <div class="project">
                     <div class="project-text">
@@ -169,7 +169,7 @@
                         <h4 class="project-technologies">HTML/CSS/JS</h4>
                     </div>
                     <img src="images2/content-6.jpg" alt="" class="project-img">
-                    <a href="#" class="project-link" target="_blank">Go to Video</a>
+                    <a href="#" class="project-link" target="_blank">Go to Content</a>
                 </div>
                 <div class="project">
                     <div class="project-text">
@@ -179,7 +179,7 @@
                         <h4 class="project-technologies">HTML/CSS/JS</h4>
                     </div>
                     <img src="images2/content-7.jpg" alt="" class="project-img">
-                    <a href="#" class="project-link" target="_blank">Go to Video</a>
+                    <a href="#" class="project-link" target="_blank">Go to Content</a>
                 </div>
                 <div class="project">
                     <div class="project-text">
@@ -189,7 +189,7 @@
                         <h4 class="project-technologies">HTML/CSS/JS</h4>
                     </div>
                     <img src="images2/content-8.jpg" alt="" class="project-img">
-                    <a href="#" class="project-link" target="_blank">Go to Video</a>
+                    <a href="#" class="project-link" target="_blank">Go to Content</a>
                 </div>
                 <div class="project">
                     <div class="project-text">
@@ -199,7 +199,7 @@
                         <h4 class="project-technologies">HTML/CSS/JS</h4>
                     </div>
                     <img src="images2/content-9.jpg" alt="" class="project-img">
-                    <a href="#" class="project-link" target="_blank">Go to Video</a>
+                    <a href="#" class="project-link" target="_blank">Go to Content</a>
                 </div>
             </div>
         </section>
@@ -207,12 +207,13 @@
             <h1 class="section-heading section-4-heading">
                 Contact Me
             </h1>
-            <form action="" class="contact-form center">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
+            <form action="https://formspree.io/f/mgedvqge" method="POST" id="my-form" class="contact-form center">
+                <input type="text" placeholder="Name" id="nama"name="nama" required>
+                <input type="email" placeholder="Email" id="email" name="email" required>
+                <textarea placeholder="Message" name="pesan" id="pesan" required></textarea>
                 <input type="submit" value="submit" class="contact-form-btn">
             </form>
+            <div id="status">Success</div>
         </section>
         <footer class="section-5 center" id="section-5">
             <div class="social-media">
@@ -242,7 +243,7 @@
             </p>
         </footer>
     </div>
-    
+    <script src="script2.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

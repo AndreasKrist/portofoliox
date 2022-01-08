@@ -16,7 +16,7 @@ const mainFn = () => {
         navbar.classList.remove("sticky");
     }
     sections.forEach((section, i) => {
-        if (window.pageYOffset >= section.offsetTop - 10){
+        if (window.pageYOffset >= section.offsetTop - 50){
             navbarLinks.forEach(navbarLink => {
                 navbarLink.classList.remove("change");
             })
@@ -34,7 +34,7 @@ const mainFn = () => {
 }
 
 mainFn()
-
-window.addEventListener('resize', () => {
-    window.location.reload();
-});
+//resize// 
+//window.addEventListener('resize', () => {
+ //   window.location.reload();
+//});
