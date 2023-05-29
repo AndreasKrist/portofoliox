@@ -7,7 +7,7 @@ const progressBarPercents = [90,85,83,80,75,27,1];
 window.addEventListener('scroll', ()=>{
     mainFn();
 });
-
+// Halo dre
 const mainFn = () => {
     if(window.pageYOffset >= navbarOffsetTop){
         navbar.classList.add("sticky");
